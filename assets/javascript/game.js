@@ -87,7 +87,7 @@ document.onkeypress = function(k) {
 
 	// if all countdown hits 0
 	if (countdown === 0){
-		alert("Why don't you give it another shot dude?");
+		alert("The ninjas got the best of you this round. Why don't you give it another shot?");
 		location.reload();
 	}
 
