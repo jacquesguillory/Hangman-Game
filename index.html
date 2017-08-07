@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman - by Jacques Guillory</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+	
+	<!-- jQuery -->
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+ 	<!-- my JS -->
+	<script src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+
+
+
+<div class = "container">
+		<!-- Header section -->
+		<div class="row">
+  			<div class="col-md-12">
+  				<div id="header" style="text-align: center">
+					
+					<h1>HANGMAN</h1>
+					<hr>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- Left Picture Game Description -->
+			<div class="col-md-6">
+				<div id="baddude">
+					<img src="assets/images/baddudes.gif" alt="my game description">
+				</div>
+			</div>
+
+			<!-- Game Area -->
+			<div class="col-md-6">
+				<div id="gameArea">
+					<h2> PRESS ANY LETTER TO BEGIN </h2>
+					<br>
+					<br>
+					<p> Your Word: </p>
+					<p id="word">none</p>
+					<br>
+					<br>
+					<p> Your Guesses:</p>
+					<p id="guesses"></p>
+					<br>
+					<br>
+					<p> Number of Guesses Left:</p>
+					<p id ="guessCounter">none</p> 
+
+
+				</div>
+
+</body>
+</html>
